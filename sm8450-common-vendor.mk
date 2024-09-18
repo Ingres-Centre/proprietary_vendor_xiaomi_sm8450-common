@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
@@ -22,12 +21,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
-    vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
-    vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
-    vendor/xiaomi/sm8450-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -80,13 +76,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
@@ -138,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
@@ -219,14 +212,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/xiaomi/sm8450-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/sm8450-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
@@ -282,7 +271,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
-    vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
     jcos_nq_client \
     lib-imscommon \
@@ -300,7 +288,6 @@ PRODUCT_PACKAGES += \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
-    libFileMux_proprietary \
     libFlacSwDec \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
@@ -409,10 +396,6 @@ PRODUCT_PACKAGES += \
     libmisight \
     libmlipay \
     libmlipay@1.1 \
-    libmm-hdcpmgr \
-    libmmosal_vendor \
-    libmmrtpdecoder_vendor \
-    libmmrtpencoder_vendor \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_datapath_proxy \
@@ -558,26 +541,6 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvpplibrary \
     libvpptestutils \
-    libwfdcodecv4l2_proprietary \
-    libwfdcommonutils_proprietary \
-    libwfdconfigutils_proprietary \
-    libwfddisplayconfig_vendor \
-    libwfdhdcpcp \
-    libwfdhdcpservice_proprietary \
-    libwfdmminterface_proprietary \
-    libwfdmmservice_proprietary \
-    libwfdmmsrc_proprietary \
-    libwfdmodulehdcpsession \
-    libwfdrtsp_vendor \
-    libwfdsessionmodule \
-    libwfdsourcesession_proprietary \
-    libwfdsourcesm_proprietary \
-    libwfduibcinterface_vendor \
-    libwfduibcsink_vendor \
-    libwfduibcsinkinterface_vendor \
-    libwfduibcsrc_vendor \
-    libwfduibcsrcinterface_vendor \
-    libwfdutils_proprietary \
     libwms \
     libwqe \
     libwvhidl \
@@ -707,8 +670,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0-vendor \
-    vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.configservice@1.0 \
@@ -748,31 +709,10 @@ PRODUCT_PACKAGES += \
     libdpmtcm \
     libimscamera_jni \
     libimsmedia_jni \
-    libmmosal \
-    libmmparser_lite \
-    libmmrtpdecoder \
-    libmmrtpencoder \
     libqcc \
     libqcc_file_agent_sys \
     libqccdme \
     libqccfileservice \
-    libwfdavenhancements \
-    libwfdclient \
-    libwfdcommonutils \
-    libwfdconfigutils \
-    libwfddisplayconfig \
-    libwfdmminterface \
-    libwfdmmsink \
-    libwfdmmsrc_system \
-    libwfdnative \
-    libwfdrtsp \
-    libwfdservice \
-    libwfdsinksm \
-    libwfduibcinterface \
-    libwfduibcsink \
-    libwfduibcsinkinterface \
-    libwfduibcsrc \
-    libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
@@ -783,7 +723,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccvndhal_aidl-V1-ndk \
@@ -801,11 +740,9 @@ PRODUCT_PACKAGES += \
     QCC \
     QtiTelephony \
     QtiTelephonyService \
-    WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimservicelibrary \
@@ -828,19 +765,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.security.keymint-service-qti \
-    c2_manifest_vendor \
-    c2_manifest_vendor_audio \
-    dataconnection-saidl \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    qtiradio-saidl \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss-service \
-    vendor.qti.hardware.perf \
-    vendor.qti.hardware.qconfig@1.0-service \
-    vendor.qti.hardware.radio.ims \
-    vendor.qti.hardware.vpp@2.0-service \
+    android.hardware.security.keymint-service-qti.xml \
+    c2_manifest_vendor.xml \
+    c2_manifest_vendor_audio.xml \
+    dataconnection-saidl.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
+    qtiradio-saidl.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss-service.xml \
+    vendor.qti.hardware.perf.xml \
+    vendor.qti.hardware.qconfig@1.0-service.xml \
+    vendor.qti.hardware.radio.ims.xml \
+    vendor.qti.hardware.vpp@2.0-service.xml \
     ATFWD-daemon \
     SoterProvisioningTool \
     adpl \
@@ -921,19 +858,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0-service \
     vmmgr \
     vppservice \
-    wfdhdcphalservice \
-    wfdvndservice \
-    wifidisplayhalservice \
     xtra-daemon \
     dpmd \
     qccsyshal@1.2-service \
-    tcmd \
-    wfdservice64
+    tcmd
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
     libimsmedia_jni_libimsmedia_jni_symlink64 \
-    libwfdnative_libwfdnative_symlink64 \
     libEGL_adreno_libEGL_adreno_symlink32 \
     libGLESv2_adreno_libGLESv2_adreno_symlink32 \
     libq3dtools_adreno_libq3dtools_adreno_symlink32 \
